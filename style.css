@@ -107,9 +107,11 @@ header nav box-icon{
 }
 
 @media only screen and (max-width:760px){
+    /* -----------navbar-------------------------------------- */
     header nav{
         flex-direction: column;
         text-align: center;
+        position: relative;
     }
 
     header  nav ul{
@@ -136,4 +138,12 @@ header nav box-icon{
     header nav ul li a:hover{
         color: #4caf50;
       }
+
+      /* ----------menubar icon-------------------------- */
+      header nav box-icon{
+        display: block;
+        position: absolute;
+        top: 6%;
+        right: 5%;
+    }
 }
