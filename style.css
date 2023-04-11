@@ -101,3 +101,7 @@ header nav ul li a{
 header nav ul li a:hover{
     color: #4caf50;
 }
+
+header nav box-icon{
+    display: none;
+}
