@@ -5,5 +5,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
     font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 400;
+    /* 1.6 * 10 = 16px */
+    font-size: 1.6rem;  
+}
+
+h1{
+    font-weight: 800;
+    font-size: 3.6rem;
+    margin: 1.6rem 0;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 2.4rem;
+    margin: 1.6rem 0;
+}
+
+p{
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin: 1.6rem 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* --------------------------------------- */
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+section{
+    padding: 100px 0;
 }
