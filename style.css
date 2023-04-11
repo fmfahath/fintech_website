@@ -82,6 +82,7 @@ header nav{
     justify-content: space-between;
     align-items: center ;
     padding: 2% 8%;
+    z-index: 100;
 }
 
 header nav ul{
@@ -105,6 +106,67 @@ header nav ul li a:hover{
 header nav box-icon{
     display: none;
 }
+
+/* Header-content */
+.header-content{
+    color: whitesmoke;
+    width: 50%;
+    padding: 20px;
+    position: absolute ;
+    top: 20%;
+    left: 10%;
+    /* background-color: aqua; */
+}
+
+.header-content h2, span{
+    /* letter-spacing: 2px; */
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.header-content p{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.header-content form{
+    margin-top: 30px;
+}
+
+.header-content form input{
+    display: block;
+    width: 50%;
+    height: 40px;
+    padding: 10px 20px;
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.header-content form input::placeholder{
+    font-size: 1.3rem;
+    color: #adadad;
+}
+
+.header-content form input[type=submit]{
+    font-weight: 500;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+}
+
+.header-content form input[type=submit]:hover{
+    color: #4caf50;
+    background-color:rgba(15, 15, 15,1);
+    border: 1px solid rgb(71, 70, 70);
+}
+
+
+
+
+
 
 @media only screen and (max-width:760px){
     /* -----------navbar-------------------------------------- */
@@ -148,7 +210,7 @@ header nav box-icon{
         right: 20px;
     }
 
-    /* -----------navbar icon toggle--------------------------------------------- */
+    /* -----------navbar icon toggle---------------------- */
     .showmenu{
         display: block;
     }
