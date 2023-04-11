@@ -55,4 +55,49 @@ section{
     padding: 100px 0;
 }
 
-/* --------------------------------------- */
+/* --------------Header------------------------- */
+
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .logo h1{
+    font-size: 3.2rem;
+    color: #4caf50;
+    letter-spacing: 5px;
+    margin: 0;
+    transition: .1s ease-in-out;
+}
+
+header .logo h1:hover{
+    color: whitesmoke;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 2% 8%;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+
+header nav ul li a{
+    color: whitesmoke;
+    transition: .1s ease-in-out;
+}
+
+header nav ul li a:hover{
+    color: #4caf50;
+}
