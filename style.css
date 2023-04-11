@@ -118,6 +118,7 @@ header nav box-icon{
         background-color: rgba(15, 15, 15,0.7);
         width: 95%;
         border-radius: 15px;
+        display: none;
     }
 
     header nav ul li{
@@ -139,11 +140,16 @@ header nav box-icon{
         color: #4caf50;
       }
 
-      /* ----------menubar icon-------------------------- */
+      /* ----------navbar icon-------------------------- */
       header nav box-icon{
         display: block;
         position: absolute;
-        top: 6%;
-        right: 5%;
+        top: 20px;
+        right: 20px;
+    }
+
+    /* -----------navbar icon toggle--------------------------------------------- */
+    .showmenu{
+        display: block;
     }
 }
