@@ -237,10 +237,10 @@ header nav box-icon{
 
 .about-2 .card{
     width: 50%;
-    height: 50%;
+    height: 200px;
     color: #222;
     background-color: #dcdcdc;
-    padding: 3rem 5rem;
+    padding: 5rem;
     margin: 1.6rem;
     /* border: 1px solid #222; */
     border-radius: 5px;
@@ -249,6 +249,7 @@ header nav box-icon{
     justify-content: center;
     align-items: center;
     text-align: center;
+    cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 
@@ -371,5 +372,38 @@ header nav box-icon{
 
     .row .about-middle a , .about-right a{
         padding: 8px 15px;
+    }
+
+    /* About -2 -------------------------------------------------- */
+    .about-2{
+        text-align: center;
+    }
+    .about-2 .about2-left{
+        flex-basis: 100%;
+    }
+
+    .about-2 .about2-right{
+        flex-basis: 100%;
+    }
+
+    .about-2 .about2-left h2{
+        font-weight: 500;
+    }
+
+    .about-2 .about2-left p{
+        font-size: 1.5rem;
+    }
+
+    .about2-right .row{
+        flex-direction: row;
+    }
+
+    .about-2 .card{
+        width: 40%;
+        height: 150px;
+    }
+
+    .about-2 .card h2{
+        font-size: 1.5rem;
     }
 }
