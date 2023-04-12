@@ -52,7 +52,7 @@ img{
 }
 
 section{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 /* --------------Header------------------------- */
@@ -266,6 +266,78 @@ header nav box-icon{
    font-weight: 600;
 }
 
+/* process--------------------------------------------------- */
+.processs{
+
+}
+.process .row{
+      justify-content: center;
+}
+
+.process-content{
+    margin-top: 30px;
+}
+
+.process-content h2{
+    font-weight: 700;
+}
+
+.progress-bar{
+    width: 80%;
+    height: 2px;
+    background-color: #222;
+    position: relative;
+    margin: auto;
+}
+
+.progress-bar .c1,
+.progress-bar .c2,
+.progress-bar .c3{
+    width: 20px;
+    height: 20px;
+    background-color: #222;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.progress-bar .c1{
+    top: -8px;
+    left: 40px;
+}
+
+.progress-bar .c2{
+    top: -8px;
+    left: 49%;
+}
+
+.progress-bar .c3{
+    top: -8px;
+    right: 40px;
+}
+
+.box1, .box2, .box3{
+    text-align: center;
+    padding: 0 20px;
+}
+
+.box1 {
+    text-align: left;
+}
+
+.box2 {
+    text-align: center;
+}
+
+.box3 {
+    text-align: right;
+}
+
+.box1 h2, 
+.box2 h2, 
+.box3 h2{
+    color: #4caf50;
+    font-weight: 700;
+}
 
 
 
