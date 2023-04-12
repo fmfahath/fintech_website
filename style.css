@@ -32,7 +32,7 @@ h2{
 }
 
 p{
-    font-weight: 800;
+    font-weight: 500;
     font-size: 1.8rem;
     margin: 1.6rem 0;
 }
@@ -59,10 +59,16 @@ section{
 
 body{
     height: 100vh;
+   
+}
+
+header{
+    height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url('images/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /* background-color: yellow; */
 }
 
 header .logo h1{
@@ -71,6 +77,7 @@ header .logo h1{
     letter-spacing: 5px;
     margin: 0;
     transition: .1s ease-in-out;
+   
 }
 
 header .logo h1:hover{
@@ -168,6 +175,33 @@ header nav box-icon{
     border: 1px solid rgb(71, 70, 70);
 }
 
+
+/* About -1 -------------------------------------------------- */
+
+
+.about-left, .about-middle, .about-right{
+    flex-basis: 30%;
+    /* padding: 1.6rem; */
+    margin-top: 20%;
+    background-color: aqua;
+
+}
+
+.about-left h2, .about-middle h2, .about-right h2{
+    font-weight: 700;
+}
+
+.row .about-middle a , .about-right a{
+   display: inline-block;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #4caf50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
 
 
 
