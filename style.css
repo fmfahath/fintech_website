@@ -48,7 +48,7 @@ img{
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin: auto;
+    margin: 20px auto;
 }
 
 section{
@@ -105,7 +105,7 @@ header nav ul li a{
     color: whitesmoke;
     transition: .1s ease-in-out;
 }
-
+ 
 header nav ul li a:hover{
     color: #4caf50;
 }
@@ -119,9 +119,10 @@ header nav box-icon{
     color: whitesmoke;
     width: 50%;
     padding: 20px;
-    position: relative ;
-    top: 80px;
+    position: absolute ;
+    top: 30%;
     left: 10%;
+    z-index: 99;
    
 }
 
@@ -181,9 +182,8 @@ header nav box-icon{
 
 .about-left, .about-middle, .about-right{
     flex-basis: 30%;
-    /* padding: 1.6rem; */
-    margin-top: 20%;
-    background-color: aqua;
+    padding: 1.6rem;
+    /* background-color: aqua; */
 
 }
 
@@ -192,7 +192,7 @@ header nav box-icon{
 }
 
 .row .about-middle a , .about-right a{
-   display: inline-block;
+    display: inline-block;
     font-size: 1.5rem;
     color: white;
     background-color: #4caf50;
@@ -201,6 +201,14 @@ header nav box-icon{
     border-radius: 5px;
     cursor: pointer;
     margin: 10px 0;
+    transition: 0.1s ease-in-out;
+}
+
+.row .about-middle a:hover , 
+.about-right a:hover{
+    color: #4caf50;
+    background-color:rgba(15, 15, 15,1);
+    border: 1px solid rgb(71, 70, 70);
 }
 
 
@@ -293,5 +301,22 @@ header nav box-icon{
         margin-left: 17%;
     }
 
-    
+    /* About -1 -------------------------------------------------- */
+
+    .row{
+        flex-direction: column;
+    }
+
+    .about-left h2, .about-middle h2, .about-right h2{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .row .about-middle p , .about-right p{
+        font-size: 1.5rem;
+    }
+
+    .row .about-middle a , .about-right a{
+        padding: 8px 15px;
+    }
 }
