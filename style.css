@@ -267,19 +267,23 @@ header nav box-icon{
 }
 
 /* process--------------------------------------------------- */
-.processs{
-
+.process{
+    /* background-color: yellow;     */
 }
+
 .process .row{
       justify-content: center;
 }
 
 .process-content{
     margin-top: 30px;
+    position: relative;
+    /* background-color: aqua; */
 }
 
-.process-content h2{
-    font-weight: 700;
+.process .row h2{
+    /* font-weight: 00; */
+    font-size: 3rem;
 }
 
 .progress-bar{
@@ -288,6 +292,7 @@ header nav box-icon{
     background-color: #222;
     position: relative;
     margin: auto;
+    z-index: 1
 }
 
 .progress-bar .c1,
@@ -336,7 +341,8 @@ header nav box-icon{
 .box2 h2, 
 .box3 h2{
     color: #4caf50;
-    font-weight: 700;
+    font-size: 3rem !important;
+    font-weight: 600;
 }
 
 
@@ -478,4 +484,65 @@ header nav box-icon{
     .about-2 .card h2{
         font-size: 1.5rem;
     }
+
+        /* process-------------------------- */
+    .process-content{
+        display: flex ;
+        flex-direction: row;
+    }
+
+    .process .row h2{
+        /* font-weight: 00; */
+        font-size: 2.5rem;
+    }
+
+    .process-content .progress-bar{
+        transform: rotate(90deg);
+        position: absolute;
+        width: 120% !important;
+        top: 48%; 
+        left: -60%;
+    }
+
+    .progress-bar .c1{
+        top: -8px;
+        left: 35px;
+    }
+    
+    .progress-bar .c2{
+        top: -8px;
+        left: 41%;
+    }
+    
+    .progress-bar .c3{
+        top: -8px;
+        right: 100px;
+    }
+
+    .box1, .box2, .box3 {
+        text-align: left;
+        padding: 0 10px;
+    }
+
+
+    .box1 h2, 
+    .box2 h2, 
+    .box3 h2{
+        font-weight: 600;
+        font-size: 2.5rem !important;
+    }
+
+
+    .box1 p, 
+    .box2 p, 
+    .box3 p{
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .process-content .row{
+        flex-direction: column;
+    }
+
+
 }
