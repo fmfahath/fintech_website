@@ -348,11 +348,36 @@ header nav box-icon{
 
 /* testimony------------------------------------------ */
 .testimnoy{
-    background-color: #222  ;
+    background-color: #222 ;
+    color: white;
+}
+
+.testimnoy .test{
+    background-color: #505050;
+    margin: 0 1rem;
+    padding: 4rem 8rem;
+}
+
+.testimnoy .image{
+    width: 80px;
+    height: 80px;
+}
+
+.testimnoy .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimnoy .test .test-content p{
+    font-weight: 300;
 }
 
 
-
+.testimnoy .test .test-content h2{
+    font-weight: 600;
+}
 
 
 
