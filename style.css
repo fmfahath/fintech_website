@@ -674,6 +674,14 @@ header nav box-icon{
         margin-top: 2rem;
     }
 
+    /* contact---------------------------- */
 
+    .contact form input{
+        width: 90%; 
+    }
+
+    .contact form textarea{
+        width: 90%; 
+    }
 
 }
