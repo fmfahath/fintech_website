@@ -659,5 +659,21 @@ header nav box-icon{
         flex-direction: column;
     }
 
+    /* testimny--------------------- */
+    
+    .testimnoy .row{
+        flex-direction: column;
+    }
+
+    .testimnoy .test{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+
 
 }
